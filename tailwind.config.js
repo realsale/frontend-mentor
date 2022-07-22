@@ -2,11 +2,11 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    screens: {
-      mobile: "375px",
-      desktop: "1440px"
-    },
     extend: {
+      screens: {
+        mobile: "375px",
+        desktop: "1440px"
+      },
       colors: {
         "dark-cyan": "hsl(158, 36%, 37%)",
         "cream": "hsl(30, 38%, 92%)",
@@ -15,7 +15,7 @@ module.exports = {
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
-        fraunces: ["Fraunces", "sans-serif"]
+        fraunces: ["Fraunces", "serif"]
       }
     },
   },
