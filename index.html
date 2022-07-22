@@ -6,6 +6,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Product preview card component</title>
   <link rel="stylesheet" href="./dist/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -13,19 +16,36 @@
   </style>
 </head>
 <body>
-  <h1 class="text-xl">Gabrielle Essence Eau De Parfum</h1>
+  <main class="bg-cream h-screen flex justify-center items-center">
+    <div class="max-w-[350px] rounded-xl overflow-hidden">
+      <img src="./images/image-product-mobile.jpg" alt="Image product mobile">
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">realsale</a>.
-  </div>
+      <div class="bg-white p-6 font-montserrat">
+        <p class="tracking-[5px] text-dark-grayish-blue text-xs">PERFUME</p>
+        <h1 class="text-[32px] leading-9 mt-2 font-fraunces text-very-dark-blue">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="mt-2 text-dark-grayish-blue leading-6 text-sm">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        
+        <p class="mt-4 font-fraunces text-3xl text-dark-cyan flex items-center">
+          $149.99
+          <span class="ml-4 text-dark-grayish-blue text-sm font-montserrat line-through align-middle">$169.99</span>
+        </p>
+        
+        <button type="button" class="mt-4 bg-dark-cyan text-white p-3 w-full rounded-lg font-montserrat font-medium text-sm flex justify-center items-center">
+          <img src="./images/icon-cart.svg" alt="Cart icon" class="mr-2">
+          Add to Cart
+        </button>
+      </div>
+      
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">realsale</a>.
+      </div> -->
+    </div>
+  </main>
 </body>
 </html>
