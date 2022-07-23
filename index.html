@@ -17,30 +17,51 @@
 </head>
 <body>
   <main class="bg-cream h-screen flex justify-center items-center">
-    <div class="max-w-[350px] rounded-xl overflow-hidden">
-      <img src="./images/image-product-mobile.jpg" alt="Image product mobile">
+    <div class="max-w-[345px] rounded-xl overflow-hidden md:flex md:max-w-[600px]">
+      <img src="./images/image-product-mobile.jpg" alt="Image product mobile" class="md:hidden" />
+      <img src="./images/image-product-desktop.jpg" alt="Image product desktop" class="hidden w-1/2 md:block" />
 
-      <div class="bg-white p-6 font-montserrat">
+      <div class="bg-white p-6 font-montserrat md:p-8">
         <p class="tracking-[5px] text-dark-grayish-blue text-xs">PERFUME</p>
-        <h1 class="text-[32px] leading-9 mt-2 font-fraunces text-very-dark-blue">
+
+        <h1 class="text-[32px] leading-8 mt-3 font-fraunces text-very-dark-blue md:mt-5">
           Gabrielle Essence Eau De Parfum
         </h1>
-        <p class="mt-2 text-dark-grayish-blue leading-6 text-sm">
+
+        <p class="mt-4 text-dark-grayish-blue leading-[23px] text-sm md:mt-6">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
-        
-        <p class="mt-4 font-fraunces text-3xl text-dark-cyan flex items-center">
+
+        <p class="mt-6 font-fraunces text-[32px] leading-8 text-dark-cyan flex items-center md:mt-[29px]">
           $149.99
-          <span class="ml-4 text-dark-grayish-blue text-sm font-montserrat line-through align-middle">$169.99</span>
+          <span class="ml-5 text-dark-grayish-blue text-[13px] font-montserrat line-through align-middle">$169.99</span>
         </p>
-        
-        <button type="button" class="mt-4 bg-dark-cyan text-white p-3 w-full rounded-lg font-montserrat font-medium text-sm flex justify-center items-center">
-          <img src="./images/icon-cart.svg" alt="Cart icon" class="mr-2">
+
+        <button
+          type="button"
+          class="
+          mt-5
+          bg-dark-cyan
+          text-white
+          p-[14px]
+          w-full
+          rounded-lg
+          font-montserrat
+          font-medium
+          text-sm
+          flex
+          justify-center
+          items-center
+          md:mt-8
+          hover:bg-very-dark-cyan
+          active:bg-very-dark-cyan"
+        >
+          <img src="./images/icon-cart.svg" alt="Cart icon" class="mr-3" />
           Add to Cart
         </button>
       </div>
-      
+
       <!-- <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="#">realsale</a>.

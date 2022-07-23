@@ -558,36 +558,52 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .flex {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-full {
   width: 100%;
 }
 
-.max-w-\[350px\] {
-  max-width: 350px;
+.max-w-\[345px\] {
+  max-width: 345px;
 }
 
 .items-center {
@@ -629,8 +645,8 @@ video {
   padding: 1.5rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
+.p-\[14px\] {
+  padding: 14px;
 }
 
 .align-middle {
@@ -659,21 +675,20 @@ video {
   line-height: 1.25rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-\[13px\] {
+  font-size: 13px;
 }
 
 .font-medium {
   font-weight: 500;
 }
 
-.leading-9 {
-  line-height: 2.25rem;
+.leading-8 {
+  line-height: 2rem;
 }
 
-.leading-6 {
-  line-height: 1.5rem;
+.leading-\[23px\] {
+  line-height: 23px;
 }
 
 .tracking-\[5px\] {
@@ -703,4 +718,57 @@ video {
 .line-through {
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
+}
+
+.hover\:bg-very-dark-cyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(156 42% 18% / var(--tw-bg-opacity));
+}
+
+.hover\:text-very-dark-cyan:hover {
+  --tw-text-opacity: 1;
+  color: hsl(156 42% 18% / var(--tw-text-opacity));
+}
+
+.active\:bg-very-dark-cyan:active {
+  --tw-bg-opacity: 1;
+  background-color: hsl(156 42% 18% / var(--tw-bg-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .md\:mt-\[29px\] {
+    margin-top: 29px;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:max-w-\[600px\] {
+    max-width: 600px;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
 }
