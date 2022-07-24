@@ -610,8 +610,8 @@ video {
   max-width: 345px;
 }
 
-.grid-rows-\[auto_50px\] {
-  grid-template-rows: auto 50px;
+.grid-rows-\[auto_30px\] {
+  grid-template-rows: auto 30px;
 }
 
 .items-center {

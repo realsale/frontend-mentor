@@ -3,10 +3,6 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
-      screens: {
-        mobile: "375px",
-        desktop: "1440px"
-      },
       colors: {
         "dark-cyan": "hsl(158, 36%, 37%)",
         "very-dark-cyan": "hsl(156, 42%, 18%)",
