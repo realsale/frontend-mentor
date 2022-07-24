@@ -14,6 +14,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+- [Project setup](#project-setup)
 
 ## Overview
 
@@ -63,3 +64,21 @@ Throughout this challenge I learned how to properly customize and extend utility
 ## Author
 
 - Frontend Mentor - [@realsale](https://www.frontendmentor.io/profile/realsale)
+
+## Project setup
+
+```bash
+npm install
+```
+
+### Compiles and watch changes for development
+
+```bash
+npm run watch
+```
+
+### Compiles and minifies for production
+
+```bash
+npm run build
+```
