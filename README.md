@@ -28,11 +28,9 @@ Users should be able to:
 
 #### Mobile
 
-<img
-  style="display: block;margin: 0 auto;"
-  src="./design/mobile-design-solution.png"
-  alt="Mobile Design Solution"
-/>
+<p align="center">
+  <img src="./design/mobile-design-solution.png" alt="Mobile Design Solution" />
+</p>
 
 #### Desktop
 
