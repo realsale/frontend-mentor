@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "tailwindcss -i ./css/index.css -o ./dist/index.css",
+    "build": "tailwindcss -i ./css/index.css -o ./dist/index.css --minify",
     "watch": "tailwindcss -i ./css/index.css -o ./dist/index.css --watch"
   },
   "keywords": [],
