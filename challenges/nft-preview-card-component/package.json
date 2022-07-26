@@ -4,9 +4,13 @@
   "description": "Solution for the NFT preview card component coding challenge using Tailwind",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./css/index.css -o ./dist/index.css --minify",
+    "watch": "tailwindcss -i ./css/index.css -o ./dist/index.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.1.6"
+  }
 }
