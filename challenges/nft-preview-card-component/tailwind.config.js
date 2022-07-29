@@ -14,6 +14,9 @@ module.exports = {
       },
       fontFamily: {
         outfit: ["Outfit", "serif"]
+      },
+      boxShadow: {
+        "card": "0 0 45px hsl(217deg 54% 11%), 0 0 35px hsl(217deg 54% 9%), 0 0 20px hsl(217deg 54% 6%)"
       }
     },
   },

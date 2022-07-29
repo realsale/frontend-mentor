@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -13,13 +13,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   </head>
 
-  <body class="h-screen bg-dark-blue font-outfit grid grid-rows-[auto_30px] items-center justify-items-center md:relative md:grid-rows-none">
-    <main>
-      <figure class="max-w-[327px] p-[25px] bg-dark-blue-card rounded-2xl md:max-w-[350px]">
+  <body class="h-full flex flex-col justify-between items-center bg-dark-blue font-outfit">
+    <!-- margin-top 52 is the same length as footer -->
+    <main class="px-4 mt-[52px] flex-grow flex items-center">
+      <figure class="max-w-[327px] p-[25px] bg-dark-blue-card rounded-2xl md:max-w-[350px] md:shadow-card">
         <a href="#">
           <div class="relative rounded-lg overflow-hidden group">
             <img class="w-full" src="./images/image-equilibrium.jpg" alt="Equilibrium" />
-    
+
             <div class="absolute inset-0 bg-cyan/50 justify-center items-center cursor-pointer hidden group-hover:flex">
               <img src="./images/icon-view.svg" alt="view icon" />
             </div>
@@ -59,7 +60,7 @@
       </figure>
     </main>
 
-    <footer class="text-soft-blue text-sm font-light text-center md:absolute md:bottom-4 md:left-0 md:right-0">
+    <footer class="p-4 text-soft-blue text-sm font-light text-center">
       Challenge by <a class="text-white hover:text-cyan active:text-cyan" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a class="text-white hover:text-cyan active:text-cyan" href="#">realsale</a>.
     </footer>
