@@ -9,3 +9,4 @@ These are all collection of project solutions I came up with and are all part of
 ## Projects Completed
 
 - Product preview card component - [Source Code](./challenges/product-preview-card-component) | [Live Site](https://realsale.github.io/frontend-mentor/challenges/product-preview-card-component/)
+- NFT preview card component - [Source Code](./challenges/nft-preview-card-component) | [Live Site](https://realsale.github.io/frontend-mentor/challenges/nft-preview-card-component/)
